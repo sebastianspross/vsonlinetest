@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/javascript-node-lts
+{
+	"name": "React Frontend",
+	"dockerFile": "Dockerfile",
+	"appPort": 3000,	
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"CoenraadS.bracket-pair-colorizer",
+		"streetsidesoftware.code-spell-checker",
+		"file-icons.file-icons",
+		"eamodio.gitlens",
+		"formulahendry.auto-rename-tag",
+		"christian-kohler.npm-intellisense",
+		"esbenp.prettier-vscode",
+		"vscode-versionlens",
+		"msjsdiag.debugger-for-chrome"
+	],
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	}
+}
